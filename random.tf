@@ -27,5 +27,5 @@ output "random_string" {
 
 variable "random_string" {
   type    = string
-  default = random_string.random.result
+  default = value
 }
