@@ -1,4 +1,4 @@
 variable "randomstring" {
   type    = string
-  default = "env0-takehome"
+  default = "env0-takehome_var"
 }
