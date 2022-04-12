@@ -17,7 +17,7 @@ resource "random_string" "random" {
       refresh_date = var.refresh_date
   }
   length           = 5
-  upper            = true
+  upper            = false
   special          = false
 }
 
