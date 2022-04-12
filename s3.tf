@@ -4,8 +4,3 @@ resource "aws_s3_bucket" "cns3bucket" {
     Name = "cns3bucket"
   }
 }
-
-variable "s3bucketname" {
-  type    = string
-  default = "env0bucket"
-}
