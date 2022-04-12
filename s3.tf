@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "cns3bucket" {
-  bucket = var.random_string
+  bucket = "env0bucket"
   tags = {
-    Name = var.random_string
+    Name = "env0bucket"
   }
 }
