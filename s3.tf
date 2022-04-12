@@ -7,5 +7,5 @@ resource "aws_s3_bucket" "cns3bucket" {
 
 variable "s3bucketname" {
   type    = string
-  default = data.random_stringrandom.id
+  default = data.random_string.random.id
 }
