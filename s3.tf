@@ -1,11 +1,6 @@
 resource "aws_s3_bucket" "cns3bucket" {
-  bucket = var.s3bucketname
+  bucket = data.random_string.random.id
   tags = {
-    Name = var.s3bucketname
+    Name = data.random_string.random.id
   }
-}
-
-variable "s3bucketname" {
-  type    = string
-  default = data.random_string.random.id
 }
