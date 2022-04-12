@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "cns3bucket" {
-  bucket = resource.random_string.random.id
+  bucket = output.random_string
   tags = {
-    Name = resource.random_string.random.id
+    Name = output.random_string
   }
 }
