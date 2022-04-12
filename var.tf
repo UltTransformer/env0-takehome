@@ -1,4 +1,4 @@
 variable "randomstring" {
   type    = string
-  default = "s2sat"
+  default = "env0-takehome"
 }
