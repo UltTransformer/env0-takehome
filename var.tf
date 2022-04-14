@@ -1,4 +1,4 @@
 variable "name" {
   type    = string
-  default = "env0-takehome"
+  default = "env0"
 }
